@@ -36,4 +36,5 @@ client.Prefix = '+'
          } } catch  {return;}});
          
   
-  client.login("")
+  client.login(process.env.TOKEN)
+
